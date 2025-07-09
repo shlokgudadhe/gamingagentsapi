@@ -16,30 +16,6 @@ This API is built to serve creative applications such as virtual companionship, 
 
 ---
 
-## System Architecture
+## Flowchart
 
-```mermaid
-flowchart TD
-    subgraph API
-        A[POST /chat]
-    end
-
-    subgraph RequestValidation
-        A --> B[Check API Key]
-        B -->|Invalid| Err1["Return 401 Error"]
-        B -->|Valid| C[Get Persona]
-        C -->|Not Found| Err2["Return 404 Error"]
-        C -->|Found| D[Get Activity Task]
-        D -->|Unsupported| Err3["Return 400 Error"]
-    end
-
-    subgraph CrewAI_Orchestration
-        D --> E[Create Task with Persona Agent]
-        E --> F[Create Crew with Task and Agent]
-        F --> G["Run Crew kickoff"]
-    end
-
-    subgraph Response
-        G --> H["Return reply result"]
-        G -->|Exception| Err4["Return error message"]
-    end
+![Untitled diagram _ Mermaid Chart-2025-07-09-072614](https://github.com/user-attachments/assets/0a4057af-92ff-4cf3-b25b-7c7ba91c046c)
