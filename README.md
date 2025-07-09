@@ -181,14 +181,3 @@ python-dotenv
 ```
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## Author
-
-Developed by [Your Name or Organization].  
-If you find this useful or want to contribute, feel free to open an issue or pull request.
