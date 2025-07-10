@@ -1,7 +1,7 @@
 
 # Gaming Agents API
 
-The Gaming Agents API is a conversational backend service that powers emotionally rich, persona-driven chat experiences. It enables interactions through unique personas and structured activity formats using FastAPI, CrewAI, and Gemini-based LLMs.
+The Gaming Agents API is a conversational backend service that powers emotionally rich, persona-driven chat experiences. It enables interactions through unique personas and structured activity formats using CrewAI and Gemini-based LLMs.
 
 This API is built to serve creative applications such as virtual companionship, reflective journaling, romantic simulations, cultural exchanges, and role-play activities with intelligent agents.
 
